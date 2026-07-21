@@ -47,7 +47,8 @@ Go to:
 Then:
 
 1. Add a new **Command** shortcut (+Add New (top right)).
-2. Set the path to your script: `/home/**<YOUR_USERNAME>**/.local/bin/toggle-vdesktop-mode.sh`
+2. Set the path to your script:
+    - /home/**<YOUR_USERNAME>**/.local/bin/toggle-vdesktop-mode.sh
     <!-- does $USER work here? -->
 3. Then search for it in Shortcuts & set key combination. (I set it to Shift+F1)
 
@@ -61,13 +62,16 @@ FYI:
 
 1. Right click taskbar, click "Add or Manage Widgets"
 2. Click "Get New" (Download new plasma widgets)
-    a. Search for "Command Output" & download.
-3. Go back into "Add or Manage Widgets" mode (Top Left)
-4. Click (or drag?) the new **Command Output** widget.
-    a. Right click the new widget on the taskbar to configure.
-    b. I added THIS as the command to use Emojis to indicate which mode is active:
-        - also I set the interval to 2500ms (can also do 1000ms)
-    `[[ "$(kreadconfig6 --file kwinrc --group Windows --key PerOutputVirtualDesktops)" == "true" ]] && echo "🟢" || echo "⚪"`
+3. Search for "Command Output" & download.
+4. Go back into "Add or Manage Widgets" mode (Top Left)
+5. Click (or drag?) the new **Command Output** widget.
+6. Right click the new widget on the taskbar to configure.
+7.  I added **THIS** as the command to use Emojis to indicate which mode is active:
+    - also I set the interval to 2500ms (can also do 1000ms)
+
+**THIS:**
+
+`[[ "$(kreadconfig6 --file kwinrc --group Windows --key PerOutputVirtualDesktops)" == "true" ]] && echo "🟢" || echo "⚪"`
 
 
 

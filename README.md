@@ -5,6 +5,7 @@ Some instructions from what I've done to be able to toggle KDE 6.7's new per-dis
 # 1 - Toggle Script
 
 `mkdir -p ~/.local/bin`
+
 `nano ~/.local/bin/toggle-vdesktop-mode.sh`
 
 Paste:

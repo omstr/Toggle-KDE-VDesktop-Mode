@@ -46,8 +46,8 @@ Go to:
 
 Then:
 
-1. Add a new **_Command_** shortcut (+Add New (top right)).
-2. Set the path to your script: /home/**<YOUR_USERNAME>**/.local/bin/toggle-vdesktop-mode.sh.
+1. Add a new **Command** shortcut (+Add New (top right)).
+2. Set the path to your script: `/home/**<YOUR_USERNAME>**/.local/bin/toggle-vdesktop-mode.sh`
     <!-- does $USER work here? -->
 3. Then search for it in Shortcuts & set key combination. (I set it to Shift+F1)
 
